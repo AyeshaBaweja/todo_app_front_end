@@ -4,8 +4,8 @@ html {
 
 .pomodoro-estimate{
   font-weight: bold;
-  color: #F44336;
-  background-color: #F5F5F5;
+  color: #F7EFE4;
+  background-color: #A8BCBD;
   border-radius: 50px;
   font-size: 14px;
   padding: 5px 10px 5px 10px;
@@ -18,7 +18,7 @@ html {
   border-style: none;
   padding: 10px;
   border-radius: 3px;
-  box-shadow: 2px 2px 1px #90A4AE;
+  box-shadow: 2px 2px 1px #C0C9DF;
   display: block;
   background-color: #03A9F4;
   margin-top: 10px;
@@ -36,3 +36,4 @@ h2{
   font-size: 100px;
   margin: 20px 0px;
 }
+  body {background-color: coral;}
