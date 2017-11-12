@@ -6,12 +6,12 @@ html {
   font-weight: bold;
   color: #F7EFE4;
   background-color: #A8BCBD;
-  border-radius: 50px;
+  border-radius: 20px;
   font-size: 14px;
   padding: 5px 10px 5px 10px;
 }
 #add-new-todo-button{
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   color: #FFF;
   outline: none;
@@ -29,6 +29,7 @@ html {
 li{
   padding: 5px;
   margin-bottom:10px;
+  font-size: 25px;
 }
 h2{
   display: inline-block;
@@ -36,4 +37,7 @@ h2{
   font-size: 100px;
   margin: 20px 0px;
 }
-  body {background-color: #82D8F5;}
+
+.completed-todo{
+  text-decoration: line-through;
+}

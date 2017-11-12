@@ -1,36 +1,46 @@
 <html>
   <head>
-    <title>Todo List Application</title>
+      <title>Todo Index | Todo List Application</title>
     
   <title>Todo List Application</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 
   </head>
   <body>
+    
 
     <h2>Workshop Todo List</h2>
     <ul style="list-style: none;">
     
-    <li> <a href="show.html">Make the curriculum</a> 4 pomodoros</li> <input type="checkbox"/>
+    <li> <a href="show.html">Make the curriculum</a> </li> <input type="checkbox"/>
     <span class="pomodoro-estimate">3 Pomodoros</span>
-    <li>  <a href="show.html">Buy Workshop Supplies</a> 3 pomodoros</li> <input type="checkbox"/>
-    <span> 3 pomodoros</span>
-    <li> <a href="show.html">Meet with the volunteer trainers</a> 2 pomodoros</li> <input type="checkbox"/>
+    <li>  <a href="show.html">Buy Workshop Supplies</a> </li> <input type="checkbox"/>
+    <span class="pomodoro-estimate">3 Pomodoros</span>
+    <li> <a href="show.html">Meet with the volunteer trainers</a> </li> <input type="checkbox"/>
     <span class="pomodoro-estimate"> 2 pomodoros </span>
-    <li><a href="show.html">Make the curriculum</a> 2 pomodoros</li> <input type="checkbox"/>
+    <li><a href="show.html">Make the curriculum</a> </li> <input type="checkbox"/>
     <span class="pomodoro-estimate">1 pomodoro</span> 
-    <li><a href="show.html">Check the pre-work assignments</a> 1 pomodoros</li> <input type="checkbox"/>
+    <li><a href="show.html">Check the pre-work assignments</a> </li> <input type="checkbox"/>
     <span class="pomodoro-estimate">2 pomodoros</span> 
-    <li><a href="show.html">Send workshop location to all the students</a> 4 pomodoros</li> <input type="checkbox"/>
+    <li><a href="show.html">Send workshop location to all the students</a> </li> <input type="checkbox"/>
     <span class="pomodoro-estimate">1 pomodoro</span>
-    <li><a href="show.html">Have a great workshop</a> 4 pomodoros</li> <input type="checkbox"/>
+    <li><a href="show.html">Have a great workshop</a> </li> <input type="checkbox"/>
     <span class="pomodoro-estimate"> 0 pomodoros</span>
-    </ul>
-<form action="http://google.com">
-      <input id="add-new-todo-button" type="submit" value="Add todo">
-</form>
-    <input type="text" placeholder="Add a new todo...">
-  <input type="number" placeholder="Pomodoro estimate...">
+    </ul> 
+    <div id="new-todo-block">
+      <input class="text-input" id="new-todo-description" type="text" placeholder="Add a new todo...">
+
+       <input class="text-input" id="new-pomodoro-estimate" type="number" placeholder="Pomodoro estimate...">
+             <input class="button" id="add-new-todo-button" type="submit" value="Add todo">
+    </div>
+   
+
+ 
+ 
   <a href="tel:3194235973"><img src="https://image.flaticon.com/icons/png/512/9/9243.png" width ="100"></a> 
 
     
