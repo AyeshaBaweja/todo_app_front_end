@@ -30,3 +30,9 @@ li{
   padding: 5px;
   margin-bottom:10px;
 }
+h2{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 100px;
+  margin: 20px 0px;
+}
